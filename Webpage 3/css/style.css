@@ -6,29 +6,59 @@
     --color-body: #9d99ae;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 60% !important;
-    }
+body {
+    background: yellow;
+    font-family: "inter", sans-serif;
+    font-size: 62.5%;
+}
+
+h1, h2, h3 {
+    color: #1b0760;
+}
+
+h1 {
+    font-size: 8rem; /* Equivalent to 92px */
+}
+
+h2 {
+    font-size: 6rem; /* Equivalent to 60px */
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 0;
+    color: var(--color-body);
+}
+
+:root {
+    --color-primary: #00d9ff;
+    --color-secondary: #2584ff;
+    --color-acent: #ec3000;
+    --color-header: #1b0760;
+    --color-body: #9d99ae;
 }
 
 body {
     background: yellow;
     font-family: "inter", sans-serif;
+    font-size: 62.5%;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     color: #1b0760;
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 9.2rem;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 6rem; 
 }
 
 h3 {
@@ -40,4 +70,17 @@ p {
     font-size: 2rem;
     margin-top: 0;
     color: var(--color-body);
+}
+
+/* Trying to Get the mobile view
+ */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6rem; 
+    }
+    
+    h2 {
+        font-size: 4rem; 
+    }
 }
