@@ -14,12 +14,9 @@ body {
 
 h1, h2, h3 {
     color: #1b0760;
-    font-size: 60%;
+    font-size: 62.5%;
 }
-/* Equivalent rem value = Desired pixel value / Base font size
-                      = 60 / 16
-                      = 3.75rem
- */
+
 h1 {
     font-size: 3.75rem;/*  60px for desktop view */
 }
